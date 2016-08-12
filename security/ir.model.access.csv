@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_trucks_outlets_group_user,trucks.outlets.user,model_trucks_outlets,base.group_user,1,1,1,1
+access_trucks_outlets,access_trucks_outlets,model_trucks_outlets,,1,0,0,0
