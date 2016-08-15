@@ -28,8 +28,7 @@ class TrucksOutlets(models.Model):
     pending = fields.Float(readonly=True, compute="_compute_pending", store=False)
 
     product_id = fields.Many2one('product.product', compute="_compute_product_id", store=False, readonly=True)
-    dest = fields.Many2one('stock.location', readonly=True)
-    location = fields.Many2one('stock.location')
+    warehouse_id = fields.Many2one('stock.warehouse', related="contract_id.warehouse_id", readonly=True)
 
     humidity = fields.Float(min_value=0)
     density = fields.Float(min_value=0)
