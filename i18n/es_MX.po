@@ -231,18 +231,18 @@ msgstr "Actualizar"
 #. module: trucks_outlets
 #: selection:trucks.outlets,state:0
 msgid "Weight Input"
-msgstr "Peso de entrada"
+msgstr "Peso de entrada (kg)"
 
 #. module: trucks_outlets
 #: selection:trucks.outlets,state:0
 msgid "Weight Output"
-msgstr "Peso de salida"
+msgstr "Peso de salida (kg)"
 
 #. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
 #: field:trucks.outlets,weight_input:0
 msgid "Weight input"
-msgstr "Peso de entrada"
+msgstr "Peso de entrada (kg)"
 
 #. module: trucks_outlets
 #: field:trucks.outlets,weight_neto:0
@@ -258,4 +258,4 @@ msgstr "Peso neto analizado"
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
 #: field:trucks.outlets,weight_output:0
 msgid "Weight output"
-msgstr "Peso de salida"
+msgstr "Peso de salida (kg)"
