@@ -34,18 +34,6 @@ msgid "Broken"
 msgstr ""
 
 #. module: trucks_outlets
-#: code:addons/trucks_outlets/models/trucks_outlets.py:99
-#, python-format
-msgid "Can not accept that product, humidity over 17"
-msgstr ""
-
-#. module: trucks_outlets
-#: code:addons/trucks_outlets/models/trucks_outlets.py:107
-#, python-format
-msgid "Can not storage that product, humidity over 16"
-msgstr ""
-
-#. module: trucks_outlets
 #: field:trucks.outlets,car_plates:0
 msgid "Car plates"
 msgstr ""
@@ -61,16 +49,6 @@ msgid "Contract type"
 msgstr ""
 
 #. module: trucks_outlets
-#: field:trucks.outlets,create_uid:0
-msgid "Created by"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,create_date:0
-msgid "Created on"
-msgstr ""
-
-#. module: trucks_outlets
 #: field:trucks.outlets,partner_id:0
 msgid "Customer"
 msgstr ""
@@ -78,11 +56,6 @@ msgstr ""
 #. module: trucks_outlets
 #: field:trucks.outlets,damaged:0
 msgid "Damaged"
-msgstr ""
-
-#. module: trucks_outlets
-#: help:trucks.outlets,message_last_post:0
-msgid "Date of the last message posted on the record."
 msgstr ""
 
 #. module: trucks_outlets
@@ -97,11 +70,6 @@ msgid "Density"
 msgstr ""
 
 #. module: trucks_outlets
-#: field:trucks.outlets,display_name:0
-msgid "Display Name"
-msgstr ""
-
-#. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
 #: selection:trucks.outlets,state:0
 msgid "Done"
@@ -113,29 +81,9 @@ msgid "Driver"
 msgstr ""
 
 #. module: trucks_outlets
-#: model:ir.model,name:trucks_outlets.model_trucks_outlets
-msgid "Email Thread"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,message_follower_ids:0
-msgid "Followers"
-msgstr ""
-
-#. module: trucks_outlets
-#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
-msgid "Group By"
-msgstr ""
-
-#. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
 #: field:trucks.outlets,hired:0
 msgid "Hired"
-msgstr ""
-
-#. module: trucks_outlets
-#: help:trucks.outlets,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
 msgstr ""
 
 #. module: trucks_outlets
@@ -155,18 +103,8 @@ msgid "ID"
 msgstr ""
 
 #. module: trucks_outlets
-#: help:trucks.outlets,message_unread:0
-msgid "If checked new messages require your attention."
-msgstr ""
-
-#. module: trucks_outlets
 #: field:trucks.outlets,impurities:0
 msgid "Impurities"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,message_is_follower:0
-msgid "Is a Follower"
 msgstr ""
 
 #. module: trucks_outlets
@@ -190,26 +128,6 @@ msgid "Kilos impurities"
 msgstr ""
 
 #. module: trucks_outlets
-#: field:trucks.outlets,message_last_post:0
-msgid "Last Message Date"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,__last_update:0
-msgid "Last Modified on"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,write_uid:0
-msgid "Last Updated by"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,write_date:0
-msgid "Last Updated on"
-msgstr ""
-
-#. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
 msgid "Load"
 msgstr ""
@@ -218,21 +136,6 @@ msgstr ""
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
 #: selection:trucks.outlets,state:0
 msgid "Loading"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,message_ids:0
-msgid "Messages"
-msgstr ""
-
-#. module: trucks_outlets
-#: help:trucks.outlets,message_ids:0
-msgid "Messages and communication history"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,name:0
-msgid "Name"
 msgstr ""
 
 #. module: trucks_outlets
@@ -252,11 +155,6 @@ msgid "Product id"
 msgstr ""
 
 #. module: trucks_outlets
-#: model:ir.model,name:trucks_outlets.model_sale_order
-msgid "Sales Order"
-msgstr ""
-
-#. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
 #: field:trucks.outlets,state:0
 msgid "State"
@@ -270,11 +168,6 @@ msgstr ""
 #. module: trucks_outlets
 #: field:trucks.outlets,street:0
 msgid "Street"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,message_summary:0
-msgid "Summary"
 msgstr ""
 
 #. module: trucks_outlets
@@ -329,18 +222,8 @@ msgid "Trucks/Outlets"
 msgstr ""
 
 #. module: trucks_outlets
-#: field:trucks.outlets,message_unread:0
-msgid "Unread Messages"
-msgstr ""
-
-#. module: trucks_outlets
 #: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
 msgid "Update"
-msgstr ""
-
-#. module: trucks_outlets
-#: field:trucks.outlets,warehouse_id:0
-msgid "Warehouse"
 msgstr ""
 
 #. module: trucks_outlets
@@ -374,4 +257,3 @@ msgstr ""
 #: field:trucks.outlets,weight_output:0
 msgid "Weight output"
 msgstr ""
-
