@@ -1,0 +1,261 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* trucks_outlets
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-17 20:18+0000\n"
+"PO-Revision-Date: 2016-08-17 20:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: trucks_outlets
+#: model:ir.actions.act_window,help:trucks_outlets.trucks_outlets_list_action
+msgid "<p class=\"oe_view_nocontent_create\">Create the first truck outlets\n"
+"                </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">Crea la primer salida de camiones\n"
+"                </p>\n"
+"            "
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: selection:trucks.outlets,state:0
+msgid "Analysis"
+msgstr "Analisis"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,broken:0
+msgid "Broken"
+msgstr "Quebrado"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,car_plates:0
+msgid "Car plates"
+msgstr "Placas"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,contract_id:0
+msgid "Contract id"
+msgstr "Contrato"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,contract_type:0
+msgid "Contract type"
+msgstr "Tipo de contrato"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,partner_id:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,damaged:0
+msgid "Damaged"
+msgstr "Dañado"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+#: field:trucks.outlets,delivered:0
+msgid "Delivered"
+msgstr "Entregado"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,density:0
+msgid "Density"
+msgstr "Densidad"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: selection:trucks.outlets,state:0
+msgid "Done"
+msgstr "Hecho"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,driver:0
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+#: field:trucks.outlets,hired:0
+msgid "Hired"
+msgstr "Contratado"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,humidity:0
+msgid "Humidity"
+msgstr "Humedad"
+
+#. module: trucks_outlets
+#: code:addons/trucks_outlets/models/trucks_outlets.py:106
+#, python-format
+msgid "Humidity high"
+msgstr "Humedad alta"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,impurities:0
+msgid "Impurities"
+msgstr "Impurezas"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,kilos_broken:0
+msgid "Kilos broken"
+msgstr "Kilos quebrados"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,kilos_damaged:0
+msgid "Kilos damaged"
+msgstr "Kilos dañados"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,kilos_humidity:0
+msgid "Kilos humidity"
+msgstr "Kilos humedos"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,kilos_impurities:0
+msgid "Kilos impurities"
+msgstr "Kilos impuros"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+msgid "Load"
+msgstr "Carga"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: selection:trucks.outlets,state:0
+msgid "Loading"
+msgstr "Cargando"
+
+#. module: trucks_outlets
+#: model:ir.ui.menu,name:trucks_outlets.menu_outlets
+msgid "Outlets"
+msgstr "Salidas"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+#: field:trucks.outlets,pending:0
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,product_id:0
+msgid "Product id"
+msgstr "Producto"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: field:trucks.outlets,state:0
+msgid "State"
+msgstr "Estado"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,stock_picking:0
+msgid "Stock picking"
+msgstr "Entrega"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,street:0
+msgid "Street"
+msgstr "Domicilio"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,temperature:0
+msgid "Temperature"
+msgstr "Temperatura"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,ticket:0
+msgid "Ticket"
+msgstr "Ticket"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,transgenic:0
+msgid "Transgenic"
+msgstr "Transgenico"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+msgid "Truck Outlets"
+msgstr "Salida de camiones"
+
+#. module: trucks_outlets
+#: model:ir.actions.act_window,name:trucks_outlets.trucks_outlets_list_action
+#: model:ir.ui.menu,name:trucks_outlets.menu_action_trucks_outlets_form
+msgid "Trucks Outlets"
+msgstr "Salida de camiones"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+msgid "Trucks Outlets Form"
+msgstr "Formulario de salida de camiones"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_tree_view
+msgid "Trucks Outlets Tree"
+msgstr "Lista de salida de camiones"
+
+#. module: trucks_outlets
+#: view:sale.order:trucks_outlets.sale_order_trucks_outlets
+msgid "Trucks outlets"
+msgstr "Salida de camiones"
+
+#. module: trucks_outlets
+#: field:sale.order,trucks_outlets_ids:0
+msgid "Trucks outlets ids"
+msgstr "Salidas de camiones"
+
+#. module: trucks_outlets
+#: model:res.groups,name:trucks_outlets.group_trucks_outlets
+msgid "Trucks/Outlets"
+msgstr "Camiones/Salida"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_form_view
+msgid "Update"
+msgstr "Actualizar"
+
+#. module: trucks_outlets
+#: selection:trucks.outlets,state:0
+msgid "Weight Input"
+msgstr "Peso de entrada"
+
+#. module: trucks_outlets
+#: selection:trucks.outlets,state:0
+msgid "Weight Output"
+msgstr "Peso de salida"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: field:trucks.outlets,weight_input:0
+msgid "Weight input"
+msgstr "Peso de entrada"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,weight_neto:0
+msgid "Weight neto"
+msgstr "Peso neto"
+
+#. module: trucks_outlets
+#: field:trucks.outlets,weight_neto_analized:0
+msgid "Weight neto analized"
+msgstr "Peso neto analizado"
+
+#. module: trucks_outlets
+#: view:trucks.outlets:trucks_outlets.trucks_outlets_search_view
+#: field:trucks.outlets,weight_output:0
+msgid "Weight output"
+msgstr "Peso de salida"
