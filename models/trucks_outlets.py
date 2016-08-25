@@ -140,10 +140,16 @@ class TrucksOutlets(models.Model):
                 self.write({'state': 'weight_input'}, 'r')
             elif self.state == 'weight_input':
                 self.write({'state': 'unloading'}, 'r')
-            elif self.state == 'unloading':
+            elif self.state == 'loading':
                 self.write({'state': 'weight_output'}, 'r')
             elif self.state == 'weight_output':
                 self.write({'state': 'done'}, 'r')
 
-        res = super(TrucksReception, self).write(vals)
+        res = super(TrucksOutlets, self).write(vals)
+        return res
+
+    @api.model
+    def create(self, vals):
+        vals['state'] = 'weight_input'
+        res = super(TrucksOutlets, self).create(vals)
         return res
